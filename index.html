@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="author" content="vmarkova"/>
+        <meta name="description" content="Registration form"/>
+        <meta charset="utf-8" />
+
+        <link href="register.css" rel="stylesheet"></link>
+        <link href = "register.png" rel="icon" type="image/jpg">
+
+        <script defer src="validation.js"></script>
+
+        <title>Регистрация</title>
+        <body class="body-style">
+            <div class="form-style">
+                <form>
+                    <div class="field-container">
+                    <input id="username" name="username" type="text" placeholder="Потребителско име" class="input-field" />
+                    </div>
+                    
+                    <div class="field-container">
+                    <input id="password" name="password" type="password" placeholder="Парола" class="input-field"/>
+                    </div>
+
+                    <div class="field-container">
+                    <input id="phone-number" name="phone-number" type="text" placeholder="Телефонен номер" class="input-field"/>
+                    </div>
+
+                    <div class="field-container">
+                    <input id="email" name="email" type="email" placeholder="Имейл адрес" class="input-field"/>
+                    </div>
+
+                    <div class="field-container">
+                    <select id="ownership-type" name="ownership-type" class="select-field">
+                        <option class="select-field-option" value="1">Собственик</option>
+                        <option class="select-field-option" value="2">Наемател</option>
+                        <option class="select-field-option" value="3">Наемодател</option>
+                    </select>
+                    </div>
+
+                    <div class="field-container">
+                    <input id="apartment-number" name="apartment-number" type="text" placeholder="Номер на апартамента" class="input-field"/>
+                    </div>
+
+                    <div class="field-container">
+                    <input id="register-btn" type="submit" value="Регистрирай ме!" class="submit-btn-field" ></input>      
+                    </div>
+                </form> 
+            </div>
+
+        </body>
+    </head>
+</html>

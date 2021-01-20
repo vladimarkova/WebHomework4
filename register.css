@@ -1,0 +1,126 @@
+.body-style{
+    background-color: rgb(222, 253, 241);
+}
+
+.form-style{
+    width: 320px;
+    height: 620px;
+    padding: 10px;
+    border: 2px solid rgb(66, 125, 35);
+    display: block;
+    background-color: rgb(222, 253, 241);
+}
+
+.input-field{
+    width: 75%;
+    padding: 10px;
+    border: 1px solid rgb(172, 182, 169);
+    margin: 15px;
+    display: block;
+}
+
+.select-field{
+    background-color: white;
+    width: 82%;
+    padding: 10px;
+    border: 1px solid rgb(172, 182, 169);
+    margin: 15px;
+    display: block;
+}
+
+.submit-btn-field{
+    background-color: rgb(207, 231, 217);
+    color: rgb(103, 154, 84);
+    width: 82%;
+    padding: 10px;
+    border: 1px solid rgb(202, 195, 195);
+    margin: 15px;
+    display: block;
+}
+
+.field-container{
+    padding: 1px;
+    margin: 3px;
+    display: block;
+}
+
+.input-field:hover{
+    width: 75%;
+    padding: 10px;
+    border: 2px solid rgb(121, 160, 107);
+    margin: 15px;
+    display: block;
+}
+
+.select-field:hover{
+    background-color: white;
+    width: 82%;
+    padding: 10px;
+    border: 2px solid rgb(121, 160, 107);
+    margin: 15px;
+    display: block;
+}
+
+select:focus > option:checked { 
+    background: rgb(91, 144, 247);
+}
+
+.submit-btn-field:hover {
+    width: 82%;
+    color: rgb(207, 231, 217);
+    background-color:rgb(85, 141, 61);
+    cursor: pointer;
+}
+
+.success{ 
+    width: 75%;
+    color: white;
+    background-color: rgb(38, 129, 19);
+    padding: 10px;
+    border: 1px solid rgb(15, 53, 24);
+    margin: 15px;
+    display: block;
+}
+
+.input-field-error{
+    width: 75%;
+    padding: 10px;
+    border: 1px solid rgb(176, 112, 109);
+    margin: 15px;
+    display: block;
+}
+
+.input-field-error:hover{
+    width: 75%;
+    padding: 10px;
+    border: 2px solid rgb(124, 75, 73);
+    margin: 15px;
+    display: block;
+}
+
+.select-field-error{
+    background-color: white;
+    width: 82%;
+    padding: 10px;
+    border: 1px solid rgb(124, 75, 73);
+    margin: 15px;
+    display: block;
+}
+
+.select-field-error:hover{
+    background-color: white;
+    width: 82%;
+    padding: 10px;
+    border: 2px solid rgb(228, 146, 141);
+    margin: 15px;
+    display: block;
+}
+
+.error{ 
+    width: 75%;
+    color: white;
+    background-color: rgb(176, 112, 109);
+    padding: 10px;
+    margin: 15px;
+    display: block;
+}
