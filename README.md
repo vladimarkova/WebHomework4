@@ -1,0 +1,2 @@
+# WebHomework4
+# WebHomework4 Web technologies homework 4 - CSS styled for a simple html form, optionally javascript validation  Валидацията е направена с javascript.  Цветовете са според заданието. Използвани са id и class. Има какво да се фоиксне в размерите и разположенето, но засега успях да направя това.    Автор:  Владислава Венциславова Маркова 81271 КН Четвърти курс Втори поток Група 6  Предмет: Web технологии  Домашно 4 - CSS 
